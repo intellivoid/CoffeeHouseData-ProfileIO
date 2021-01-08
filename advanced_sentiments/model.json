@@ -1,0 +1,23 @@
+{
+    "model": {
+        "name": "Advanced Sentiments",
+        "model_name": "advanced_sentiments",
+        "author": "Zi Xing",
+        "version": "1.0.0.0",
+        "description": "Model for predicting multiple sentminal emotions towards user input"
+    },
+    "training_properties":{
+        "epoch": 15,
+        "vec_dim": 100,
+        "test_ratio": 0.2,
+        "architecture": "cnn",
+        "batch_size": 64
+    },
+    "classification": [
+        {"l": "anger", "f": "anger.dat"},
+        {"l": "neutral", "f": "neutral.dat"},
+        {"l": "happiness", "f": "happiness.dat"},
+        {"l": "affection", "f": "affection.dat"},
+        {"l": "sadness", "f": "sadness.dat"}
+    ]
+}

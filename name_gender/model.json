@@ -1,0 +1,20 @@
+{
+    "model": {
+        "name": "Name Gender Prediction",
+        "model_name": "name_gender",
+        "author": "Zi Xing",
+        "version": "1.0.0.0",
+        "description": "Model for predicting the the gender based off a name"
+    },
+    "training_properties":{
+        "epoch": 30,
+        "vec_dim": 100,
+        "test_ratio": 0.2,
+        "architecture": "cnn",
+        "batch_size": 64
+    },
+    "classification": [
+        {"l": "male", "f": "male_names.dat"},
+        {"l": "female", "f": "female_names.dat"}
+    ]
+}
