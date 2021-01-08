@@ -26,7 +26,7 @@ you can build the model in the foreground by running one of these commands
 make build
 
 # Build advanced_sentiments
-make build_advaned_sentiments
+make build_advanced_sentiments
 
 # Build name_gender
 make build_name_gender
