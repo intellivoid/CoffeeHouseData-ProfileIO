@@ -1,12 +1,12 @@
 build_name_gender:
 	python3 -m coffeehouse_dltc --train-model name_gender
 
-build_email_contents:
+build_advanced_sentiments:
 	python3 -m coffeehouse_dltc --train-model advanced_sentiments
 
 build:
 	make build_name_gender
-	make build_email_contents
+	make build_advanced_sentiments
 
 test_name_gender:
 	python3 -m coffeehouse_dltc --test-model name_gender_build
