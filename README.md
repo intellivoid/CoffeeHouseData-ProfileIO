@@ -1,7 +1,7 @@
 # ProfileIO
 
 This is the source code for ProfileIO models which are intended to be used to
-identify specifhic characters about individuals.
+identify specifhic characters about individuals!
 
 ## Fetch model
 
